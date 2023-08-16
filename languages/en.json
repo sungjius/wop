@@ -1,0 +1,611 @@
+{
+  "alert": {
+    "title": {
+      "error": "Error",
+      "fail": "Failed",
+      "warning": "Warning",
+      "info": "Info",
+      "success": "Success"
+    }
+  },
+
+  "screen_first": {
+    "title": {
+      "1": "Get Your Rewards",
+      "2": "And Create Your Moments!"
+    },
+    "login": "Log In",
+    "signUp": "Let's XRUN, Sign me up",
+    "tos": {
+      "1": "Please read",
+      "2": "and",
+      "3": "below to find out about the features and",
+      "4": "provided by this app"
+    },
+    "terms": "the terms & conditions",
+    "privacy": "privacy policy",
+    "information": "information use",
+    "updateVersion": "We have new version at Playstore"
+  },
+
+  "screen_signin": {
+    "title": "Login Via E-mail",
+    "subTitle": "Let's Login Quickly 'Catch Me'",
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Password"
+    },
+    "authcode": {
+      "label": "Try",
+      "link": "Email Authcode"
+    },
+    "validator": "Your Email is not Valid",
+    "alert": {
+      "error": "Error",
+      "fail": "Failed",
+      "warning": "Warning",
+      "info": "Info",
+      "success": "Success",
+      "emptyEmail": "Please insert your email",
+      "emptyPassword": "Please fill your password",
+      "invalidEmail": "Your email is not valid"
+    },
+    "failedLogin": "Invalid Email & Password",
+    "errorLogin": "An error occurred while loggin in"
+  },
+
+  "screen_signup": {
+    "title": "Registration",
+    "name": {
+      "label": "Name",
+      "placeholder": "Name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter your new password"
+    },
+    "phone_number": {
+      "label": "Phone Number",
+      "disabled": "Disabled",
+      "disabledDesc": "Phone number cannot change after verified",
+      "auth": "Auth",
+      "unverified": "Unverified",
+      "verified": "Verified",
+      "verify": "Verify"
+    },
+    "area": {
+      "label": "Region",
+      "placeholder": "Please search the area"
+    },
+    "gender": {
+      "label": "Gender",
+      "male": "Male",
+      "female": "Female"
+    },
+    "age": {
+      "label": "Age"
+    },
+    "referral": {
+      "label": "Referral Member Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "add_desc": {
+      "ad1": "Enter referral code for",
+      "ad2": "get a special XRUN bonus"
+    },
+    "validator": {
+      "emptyName": "Name is required",
+      "emptyEmail": "Email required",
+      "duplicatedEmail": "Duplicated email",
+      "invalidEmail": "Invalid email format",
+      "emptyPassword": "Password is required",
+      "emptyPhone": "Phone number is required",
+      "emptyArea": "Area must be filled",
+      "invalidRecommend": "Please verify the recommended email",
+      "errorServer": "There is a server communication error. Please try again...",
+      "invalidPhone": "Please verify your phone number first"
+    }
+  },
+
+  "screen_emailAuth": {
+    "email": {
+      "label": "Enter your Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "alert": {
+      "emptyEmail": "Please insert your email",
+      "invalidEmail": "Your email is not valid",
+      "errorServer": "There is a server communication error. Please try again..."
+    }
+  },
+
+  "screen_emailVerification": {
+    "email": {
+      "label": "Enter the 6 digit verification code"
+    },
+    "timer": {
+      "on": "Please send your code in",
+      "off": "A problem has occurred",
+      "sendAgain": "Send code again",
+      "loginPassword": "Login with password"
+    },
+    "notif": {
+      "emptyCode": "Please complete the verification code",
+      "invalidEmail": "Please enter your email",
+      "wrongCode": "Your Auth Code is Wrong",
+      "errorServer": "There is a server communication error. Please try again..."
+    }
+  },
+
+  "screen_loginWithPassword": {
+    "title": "Welcome back",
+    "subtitle": "Please sign in to continue",
+    "input": {
+      "password": {
+        "label": "Password",
+        "placeholder": "Please enter your password"
+      },
+      "missing": {
+        "btn": "PASSWORD",
+        "text": "missed"
+      },
+      "notExist": {
+        "btn": "ACCOUNT",
+        "text": "doesn't exist."
+      }
+    },
+    "notif": {
+      "wrong": "Unable to login. Please check your password",
+      "errorServer": "There is a server communication error. Please try again...",
+      "emptyPassword": "Please fill your password"
+    }
+  },
+
+  "screen_passwordMissed": {
+    "email": {
+      "label": "Enter the e-mail address you registered",
+      "placeholder": "Write down your e-mail address"
+    },
+    "notif": {
+      "emptyEmail": "Please insert your email",
+      "invalidEmail": "Your email is not valid",
+      "sended": "System sent you an email to change your password in that email.",
+      "errorServer": "There is a server communication error. Please try again..."
+    }
+  },
+
+  "screen_country": {
+    "title": "Country Select",
+    "current_country": "Current Location",
+    "placeholder": "Search for a country"
+  },
+
+  "screen_notExist": {
+    "field_phoneNumber": {
+      "label": "Please enter a phone number",
+      "empty": "Phone number is required"
+    },
+    "field_phoneVerif": {
+      "label": "Please enter the next 4 digit code sent",
+      "on": "Please send your code in",
+      "off": "A problem has occured",
+      "sendAgain": "RE-SEND",
+      "emptyCode": "Please complete the verification code",
+      "invalidNumber": "Invalid Number",
+      "emptyNumber": "Please enter your number"
+    },
+    "field_email": {
+      "label": "Enter your Email",
+      "placeholder": "xrun@xrun.run",
+      "emptyEmail": "Please insert your email",
+      "invalidEmail": "Your email is not valid",
+      "occupiedEmail": "Email occupied",
+      "errorServer": "There is a server communication error. Please try again..."
+    },
+    "field_password": {
+      "label": "Password",
+      "placeholder": "Enter your new password",
+      "validator": "*Alphanumeric, numeric, special combination of symbols, more than 8 digits",
+      "emptyPassword": "Please fill your password",
+      "invalidPassword": "Your password is not valid"
+    },
+    "field_name": {
+      "label": "What is your name?",
+      "placeholder_last": "Last name",
+      "placeholder_first": "Name",
+      "emptyLastName": "Please fill your last name",
+      "emptyName": "Please fill your name"
+    },
+    "field_gender": {
+      "label": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "errorServer": "There is a server communication error. Please try again..."
+    },
+    "field_join": {
+      "str1": "Welcome to the membership.",
+      "str2": "Your subscription has ",
+      "str3": "Finished"
+    }
+  },
+
+  "screen_bottomTab": {
+    "wallet": {
+      "title": "Wallet"
+    },
+    "advertise": {
+      "title": "Advertise"
+    },
+    "notify": {
+      "title": "Notify"
+    },
+    "info": {
+      "title": "Info"
+    },
+    "notLoggedin": "You are not logged in."
+  },
+
+  "screen_map": {
+    "section_card_shadow": {
+      "radius": "Within a radius of 1000 meters",
+      "amount": "You can catch",
+      "and": ".",
+      "getable": "can be optained",
+      "event": "XRUN Event",
+      "diamond": "Diamond",
+      "noCoin": "There are no XRUN",
+      "noCoin2": "at close range"
+    },
+    "section_slider_card": {
+      "desc1": "There is an obtainable XRUN (this)",
+      "desc2": "that can be acquired."
+    },
+    "section_marker": {
+      "loader": "Loading...",
+      "desc1": "There is",
+      "desc2": "supported by"
+    }
+  },
+
+  "screen_showad": {
+    "success": "Success",
+    "failed": "Coin Acquisition Failed",
+    "textOK": "OK"
+  },
+
+  "screen_notify": {
+    "title": "Notify",
+    "delete": "DELETE",
+    "deletAll": "DELETE ALL",
+    "loader": "Loading...",
+    "look": "TAKE A CLOSER LOOK",
+    "visit": "GO TO THE EVENT",
+    "send": "Send",
+    "placeholder": "Type your question...",
+    "surely": "Are you sure you want to delete all chats?"
+  },
+
+  "screen_info": {
+    "title": "My Info",
+    "list": {
+      "modify": "Modify Information",
+      "setting": "Setting",
+      "clause": "Clause",
+      "cs": "Customer Service",
+      "app_info": "App Information",
+      "recommend": "Recommend",
+      "already": "You already have a referral history."
+    },
+    "button": {
+      "logout": "Are you sure you want to logout?"
+    }
+  },
+
+  "screen_confirm_password": {
+    "title": "Confirm Password",
+    "label": "Password",
+    "placeholder": "Password",
+    "note": {
+      "alt1": "Please enter your password for personal information"
+    },
+    "condition": {
+      "empty": "Please fill your password",
+      "wrong": "Your password is doesn't match",
+      "errorServer": "There is a server communication error. Please try again..."
+    }
+  },
+
+  "screen_modify_password": {
+    "title": "Password Modify",
+    "label": "New Password",
+    "placeholder": "Please enter your new password",
+    "note": {
+      "alt1": "Please enter your password for personal information"
+    },
+    "condition": {
+      "empty": "Please fill your password",
+      "wrong": "Your password is doesn't match",
+      "errorServer": "There is a server communication error. Please try again..."
+    }
+  },
+
+  "screen_modify_information": {
+    "loader": "Loading...",
+    "title": "Modify Information",
+    "lastname": {
+      "label": "Last Name",
+      "placeholder": "Your last name"
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "Your name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "phone": {
+      "label": "Phone Number"
+    },
+    "password": {
+      "label": "Password",
+      "extstr": "Final change date :"
+    },
+    "age": {
+      "label": "Age"
+    },
+    "gender": {
+      "label": "Gender",
+      "opt1": "Boy/Men",
+      "opt2": "Girl/Women"
+    },
+    "area": {
+      "label": "Area",
+      "placeholder": "Your Area",
+      "empty": "Please select a region",
+      "label_country": "Nationality / Country",
+      "label_area": "Area"
+    },
+    "modal": {
+      "empty": "Data is empty"
+    },
+    "close": "Close",
+    "modify": "Modify"
+  },
+
+  "screen_clause": {
+    "title": "Clause",
+    "category": {
+      "service": "Service Clause",
+      "location": "Clause for Personal Location Information",
+      "usage": "Clause for Usage/Collecting Personal Information"
+    }
+  },
+
+  "screen_appInfo": {
+    "title": "App Information",
+    "version": "Latest version"
+  },
+
+  "screen_recommend": {
+    "title": "Regist Recommender",
+    "category": {
+      "regist": "Regist recommender",
+      "random": "Random recommend"
+    },
+    "add_recommend": {
+      "label": "Referral ID",
+      "placeholder": "Please enter your referral ID.",
+      "not_found": "ID not found, Please re-enter your referral ID.",
+      "recommended": "Recommended",
+      "already": "You already have a referral history."
+    },
+    "random_recommend": {
+      "empty": "Please select an ID."
+    }
+  },
+
+  "screen_cs": {
+    "title": "Customer Service",
+    "common": {
+      "title": "Common problem"
+    },
+    "one": {
+      "title": "1:1 Counseling"
+    }
+  },
+
+  "screen_setting": {
+    "title": "Setting",
+    "category": {
+      "basic": {
+        "cat": "Basic setting",
+        "device": "Device authorization letter"
+      },
+      "account": {
+        "cat": "Account setting",
+        "logout": "Log out",
+        "close": "Close membership"
+      }
+    },
+    "close": {
+      "title": "Membership Withdrawal",
+      "desc": {
+        "clo1": "All the ",
+        "clo2": "Coin ",
+        "clo3": "will be gone instantly.",
+        "clo4": "Also, you will no longer",
+        "clo5": "All services will be withdrawn.",
+        "fail": "Failed to withdraw",
+        "success_title": "Your membership closing request has been confirmed",
+        "success_desc": "All ID information will be deleted 7 days from the date of application for withdrawal. Personal information stored in the ID is destroyed and stored in accordance with the relevant statues and privacy policy."
+      },
+      "select": {
+        "sel1": "The service is difficult to use",
+        "sel2": "The function is difficult",
+        "sel3": "Etc"
+      },
+      "reason": "Close reason",
+      "del_title": "Close Membership",
+      "del_d1": "For safe account management,",
+      "del_d2": "You are receiving a password when you leave.",
+      "del_placeholder": "Please enter your password.",
+      "del_empty": "Please enter your password",
+      "del_fail": "Close membership failed"
+    },
+    "alert": {
+      "error": "Error",
+      "fail": "Failed",
+      "warning": "Warning",
+      "info": "Info",
+      "success": "Success"
+    },
+    "button": {
+      "logout": "Are you sure you want to logout?"
+    },
+    "other_chain": {
+      "info": "Show Other Chains",
+      "alert_press": "Only admin can change"
+    }
+  },
+  "screen_wallet": {
+    "title": "My Wallet",
+    "possess": "Possess",
+    "catch": "Catch",
+    "qrcode_show": "QR Code",
+    "copy_qrcode_show": "The wallet address has been copied.",
+    "download_qrcode_show": "Image is saved successfully. Please check the gallery.\n\nPlease check the download folder for the key file. \n\nIf the key file is requested more than once, the file will be damaged (non-recoverable).",
+    "copy_qrcode": "The wallet address has been copied. Use it wherever you want.",
+    "table_head_transaction": "Transactions",
+    "table_head_send": "Transfer",
+    "table_head_change": "Convert",
+    "table_head_exchange": "Exchange",
+    "table_days": "DAYS",
+    "total_history": "Total History",
+    "transfer_history": "Transfer History",
+    "received_details": "Received Details",
+    "transition_history": "Transition History",
+    "history_action3651": "Withdrawal details",
+    "history_action3304": "Completed",
+    "history_action3305": "Transfer",
+    "history_action3306": "Conversion",
+    "history_action3307": "Exchange",
+    "history_action3308": "Exchange completed",
+    "history_extracode9453": "Transfer failed",
+    "history_extracode9001": "Withdrawal approval",
+    "history_extracode9002": "Withdrawal not approved",
+    "history_extracodesuccess": "Transfer completed",
+    "history_not_found": "History not found",
+    "confirm_alert": "OK",
+    "failed_getwallet_alert": "Failed for get your wallet, please try again later",
+    "failed_alert": "Failed",
+    "failed_download_qrcode_alert": "Failed to download qr code",
+    "see_more": "See More",
+    "able_transfer": "Able Transfer"
+  },
+  "screen_send": {
+    "send_amount_label": "Amount to send",
+    "send_amount_placeholder": "Please enter the amount to be sent.",
+    "send_address_label": "Address to send",
+    "send_availables_label": "Availables",
+    "send_address_placeholder": "Please enter the address to be sent.",
+    "send_balance": "Balance :",
+    "send_stock_exchange_label": "Stock exchange",
+    "send_amount_greater_zero": "Please enter an amount greater than zero.",
+    "send_balance_not_enough": "There is not enough money(or bank balance).",
+    "send_address_less": "Address less than 40 letters.",
+    "send_empty_limit": "The transfer limit available must greater than 0",
+    "send_verification_code": "Sending verification code",
+    "estimated_gas_fee": "Estimated gas fee",
+    "notes": {
+      "note1": "Note that you must have",
+      "note2": "to transfer, If not you may lost your value."
+    },
+    "note_insufficient_balance": {
+      "note1": "You do not have enough balance in your account to pay for transaction fees on",
+      "note2": "mainnet network"
+    },
+    "note_insufficient_balance_total": "Insufficient funds with gas fee + amount",
+    "next": "Next",
+    "confirm": "Confirm"
+  },
+  "screen_complete_send": {
+    "title": "Transfer Completed",
+    "copy_txid": "The TXID has been copied. Use it wherever you want.",
+    "complete_send": "is complete",
+    "wallet_address": "Wallet address",
+    "amount_send": "Transfer amount"
+  },
+  "popup": {
+    "notice": "We apologize to user XRUN.\n\nWe will conduct a testing period\nand simultaneous maintenance.\n\nMaintenance includes:\n\n1. Expanding coins throughout Indonesia.\n\n2. To reduce errors during coin capture and ad watching.\n\n3. Free Coins for users who fill in Referral.\n\n*Our testing period will run until the end of August on the 31st, 2022"
+  },
+  "screen_conversion": {
+    "title": "Convert Coins",
+    "invalid_input": "Invalid input.",
+    "invalid_input_amount": "Invalid input amount.",
+    "insufficient_coin": "Insufficient coin acquired.",
+    "coin_above_0": "Please enter the coin above 0.",
+    "acquired_coin": "acquired coin",
+    "select_network": "Select Network",
+    "desc": "When switching, the gas is approximately 0.124% deducted before switching.",
+    "exchanged": "To be exchanged",
+    "exchanged_xrun_desc": "It will be exchanged for an XRUN retention.",
+    "input_exchanged": "Please enter the number of coins to be exchanged.",
+    "check_conversion_desc": "Please check the information once more.",
+    "minimum_exchange": "Minimum exchange amount",
+    "input_convert": "Please enter the number of coins to convert."
+  },
+  "complete_conversion": {
+    "title": "Switch request completed",
+    "target_converted": "Target to be converted",
+    "current_balance": "Current Balance",
+    "conversion_request": "Conversion Request from",
+    "desc": "Swap may reject if network fee is higher then your remain XRUN"
+  },
+  "complete_exchange": {
+    "exchange_target": "Exchange Target",
+    "exchange_request": "Exchange Request",
+    "post_exchange_balance": "Post-exchange balance",
+    "previous_balance": "Previous balance",
+    "title": "Exchange Complete",
+    "cancel_exchange": "Cancel"
+  },
+  "global_error": {
+    "error": "It's a server problem. Please try in a few minutes.",
+    "network_busy": "Network is busy now"
+  },
+
+  "screen_advertise": {
+    "title": "Advertising Storage",
+    "delete": "DELETE",
+    "all": " ALL",
+    "deleteAll": "DELETE ALL",
+    "surely": "Are you sure to delete all?",
+    "deleted": "Ads has been deleted",
+    "failedDelete": "Ads failed to delete",
+    "until": "until",
+    "loading": "Loading data, please wait...",
+    "nodata": "No data available",
+    "newest": "Newest",
+    "deadline": "Deadline",
+    "order": "Coin order",
+    "completed": "Coin acquisition completed",
+    "pending": "Waiting for coin Acquisition",
+    "tab1": "An Advertisement in Storage",
+    "tab2": "Mission Completed Advertisement",
+    "total": "Total"
+  },
+
+  "permissions_alert": {
+    "title_camera_permission": "Permission Camera",
+    "desc_camera_permission": "Need camera accsess to scan QR Code Image"
+  }
+}

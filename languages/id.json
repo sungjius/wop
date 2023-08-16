@@ -1,0 +1,610 @@
+{
+  "alert": {
+    "title": {
+      "error": "Error",
+      "fail": "Gagal",
+      "warning": "Peringatan",
+      "info": "Info",
+      "success": "Berhasil"
+    }
+  },
+
+  "screen_first": {
+    "title": {
+      "1": "Dapatkan Rewardnya",
+      "2": "Dan Ciptakan Momenmu!"
+    },
+    "login": "Masuk",
+    "signUp": "Ayo XRUN, Daftar Sekarang",
+    "tos": {
+      "1": "Silakan baca",
+      "2": "serta",
+      "3": "di bawah ini untuk mengetahui tentang fitur dan",
+      "4": "yang disediakan oleh aplikasi ini"
+    },
+    "terms": "syarat & ketentuan",
+    "privacy": "kebijakan privasi",
+    "information": "penggunaan informasi",
+    "updateVersion": "Kami memiliki versi baru di Playstore"
+  },
+
+  "screen_signin": {
+    "title": "Masuk Via Email",
+    "subTitle": "Ayo Masuk Sekarang 'Catch Me'",
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "password": {
+      "label": "Kata sandi",
+      "placeholder": "Kata sandi"
+    },
+    "authcode": {
+      "label": "Coba",
+      "link": "Email Autentikasi"
+    },
+    "validator": "Email anda tidak valid",
+    "alert": {
+      "error": "Error",
+      "fail": "Gagal",
+      "warning": "Peringatan",
+      "info": "Info",
+      "success": "Berhasil",
+      "emptyEmail": "Tolong isi email anda",
+      "emptyPassword": "Tolong isi kata sandi anda",
+      "invalidEmail": "Email anda tidak valid"
+    },
+    "failedLogin": "Email & Password tidak cocok",
+    "errorLogin": "Terjadi error saat mencoba login"
+  },
+
+  "screen_signup": {
+    "title": "Registrasi",
+    "name": {
+      "label": "Nama",
+      "placeholder": "Nama"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "password": {
+      "label": "Kata Sandi",
+      "placeholder": "Masukan kata sandi baru anda"
+    },
+    "phone_number": {
+      "label": "Nomor Telepon",
+      "disabled": "Nonaktifkan",
+      "disabledDesc": "Nomor telepon tidak dapat diubah setelah diverifikasi",
+      "auth": "Autentikasi",
+      "unverified": "Belum Diverifikasi",
+      "verified": "Terverifikasi",
+      "verify": "Verifikasi"
+    },
+    "area": {
+      "label": "Daerah",
+      "placeholder": "Cari berdasarkan wilayah anda"
+    },
+    "gender": {
+      "label": "Jenis Kelamin",
+      "male": "Pria",
+      "female": "Wanita"
+    },
+    "age": {
+      "label": "Umur"
+    },
+    "referral": {
+      "label": "Rujukan Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "add_desc": {
+      "ad1": "Masukan kode referral untuk",
+      "ad2": "mendapatkan bonus spesial XRUN"
+    },
+    "validator": {
+      "emptyName": "Nama harus diisi",
+      "emptyEmail": "Email harus diisi",
+      "duplicatedEmail": "Email sudah ada",
+      "invalidEmail": "Format email tidak valid",
+      "emptyPassword": "Password harus diisi",
+      "emptyPhone": "Nomor telepon harus diisi",
+      "emptyArea": "Daerah harus diisi",
+      "invalidRecommend": "Harap verifikasi email yang direkomendasikan",
+      "errorServer": "Ada kesalahan komunikasi dengan server. Silakan coba lagi...",
+      "invalidPhone": "Silakan verifikasi nomor telepon Anda terlebih dahulu"
+    }
+  },
+
+  "screen_emailAuth": {
+    "email": {
+      "label": "Masukan Email anda",
+      "placeholder": "xrun@xrun.run"
+    },
+    "alert": {
+      "emptyEmail": "Tolong isi email anda",
+      "invalidEmail": "Email anda tidak valid",
+      "errorServer": "Terjadi kesalahan komunikasi server. Harap coba lagi..."
+    }
+  },
+
+  "screen_emailVerification": {
+    "email": {
+      "label": "Masukkan kode verifikasi 6 digit"
+    },
+    "timer": {
+      "on": "Harap kirim kode Anda dalam",
+      "off": "Terjadi masalah",
+      "sendAgain": "Kirim kode lagi",
+      "loginPassword": "Masuk dengan kata sandi"
+    },
+    "notif": {
+      "emptyCode": "Harap lengkapi kode verifikasi",
+      "invalidEmail": "Harap masukkan email Anda",
+      "wrongCode": "Kode Otentikasi Anda Salah",
+      "errorServer": "Terjadi kesalahan komunikasi server. Harap coba lagi..."
+    }
+  },
+
+  "screen_loginWithPassword": {
+    "title": "Selamat datang kembali",
+    "subtitle": "Silakan masuk untuk melanjutkan",
+    "input": {
+      "password": {
+        "label": "Kata Sandi",
+        "placeholder": "Silakan masukkan kata sandi Anda"
+      },
+      "missing": {
+        "btn": "KATA SANDI",
+        "text": "terlupa"
+      },
+      "notExist": {
+        "btn": "AKUN",
+        "text": "tidak ada"
+      }
+    },
+    "notif": {
+      "wrong": "Tidak dapat masuk. Silakan periksa kata sandi Anda",
+      "errorServer": "Terjadi kesalahan komunikasi dengan server. Silakan coba lagi...",
+      "emptyPassword": "Silakan isi kata sandi Anda"
+    }
+  },
+
+  "screen_passwordMissed": {
+    "email": {
+      "label": "Masukkan alamat e-mail yang Anda daftarkan",
+      "placeholder": "Tulis alamat e-mail Anda"
+    },
+    "notif": {
+      "emptyEmail": "Silakan masukkan alamat e-mail Anda",
+      "invalidEmail": "E-mail Anda tidak valid",
+      "sended": "Sistem telah mengirimkan e-mail untuk mengganti kata sandi Anda di e-mail tersebut.",
+      "errorServer": "Terjadi kesalahan komunikasi dengan server. Silakan coba lagi..."
+    }
+  },
+
+  "screen_country": {
+    "title": "Pemilihan Negara",
+    "current_country": "Lokasi Sekarang",
+    "placeholder": "Silakan cari negara anda"
+  },
+
+  "screen_notExist": {
+    "field_phoneNumber": {
+      "label": "Silakan masukkan nomor telepon",
+      "empty": "Nomor telepon diperlukan"
+    },
+    "field_phoneVerif": {
+      "label": "Silakan masukkan kode 4 digit yang dikirim selanjutnya",
+      "on": "Harap kirim kode Anda dalam",
+      "off": "Terjadi masalah",
+      "sendAgain": "KIRIM ULANG",
+      "emptyCode": "Harap lengkapi kode verifikasi",
+      "invalidNumber": "Nomor tidak valid",
+      "emptyNumber": "Silakan masukkan nomor Anda"
+    },
+    "field_email": {
+      "label": "Masukkan Email Anda",
+      "placeholder": "xrun@xrun.run",
+      "emptyEmail": "Silakan masukkan email Anda",
+      "invalidEmail": "Email Anda tidak valid",
+      "occupiedEmail": "Email sudah terdaftar",
+      "errorServer": "Terjadi kesalahan komunikasi dengan server. Silakan coba lagi..."
+    },
+    "field_password": {
+      "label": "Kata Sandi",
+      "placeholder": "Masukkan kata sandi baru Anda",
+      "validator": "*Alfanumerik, numerik, kombinasi simbol khusus, lebih dari 8 digit",
+      "emptyPassword": "Silakan isi kata sandi Anda",
+      "invalidPassword": "Kata sandi Anda tidak valid"
+    },
+    "field_name": {
+      "label": "Apa nama Anda?",
+      "placeholder_last": "Nama Belakang",
+      "placeholder_first": "Nama",
+      "emptyLastName": "Silakan isi nama belakang Anda",
+      "emptyName": "Silakan isi nama Anda"
+    },
+    "field_gender": {
+      "label": "Jenis Kelamin",
+      "male": "Pria",
+      "female": "Wanita",
+      "errorServer": "Terjadi kesalahan komunikasi dengan server. Silakan coba lagi..."
+    },
+    "field_join": {
+      "str1": "Selamat datang di keanggotaan.",
+      "str2": "Langganan Anda telah ",
+      "str3": "Selesai"
+    }
+  },
+
+  "screen_bottomTab": {
+    "wallet": {
+      "title": "Dompet"
+    },
+    "advertise": {
+      "title": "Iklan"
+    },
+    "notify": {
+      "title": "Notifikasi"
+    },
+    "info": {
+      "title": "Info"
+    },
+    "notLoggedin": "Anda belum masuk."
+  },
+
+  "screen_map": {
+    "section_card_shadow": {
+      "radius": "Dalam radius 1000 meter",
+      "amount": "Anda bisa menangkap",
+      "and": ".",
+      "getable": "dapat diperoleh",
+      "event": "XRUN Event",
+      "diamond": "Diamond",
+      "noCoin": "Tidak ada XRUN",
+      "noCoin2": "pada jarak dekat"
+    },
+    "section_slider_card": {
+      "desc1": "Ada XRUN yang tersedia untuk diakuisisi",
+      "desc2": "yang dapat diperoleh."
+    },
+    "section_marker": {
+      "loader": "Memuat...",
+      "desc1": "Ada",
+      "desc2": "didukung oleh"
+    }
+  },
+
+  "screen_showad": {
+    "success": "Berhasil mendapatkan Koin",
+    "failed": "Gagal mendapatkan Koin",
+    "textOK": "OK"
+  },
+
+  "screen_notify": {
+    "title": "Pemberitahuan",
+    "delete": "HAPUS",
+    "deletAll": "HAPUS SEMUA",
+    "loader": "Memuat...",
+    "look": "LIHAT LEBIH DEKAT",
+    "visit": "KE ACARA",
+    "send": "Kirim",
+    "placeholder": "Ketik pertanyaan Anda...",
+    "surely": "Apakah Anda yakin ingin menghapus semua obrolan?"
+  },
+
+  "screen_info": {
+    "title": "Info Saya",
+    "list": {
+      "modify": "Ubah Informasi",
+      "setting": "Pengaturan",
+      "clause": "Ketentuan",
+      "cs": "Layanan Pelanggan",
+      "app_info": "Informasi Aplikasi",
+      "recommend": "Rekomendasi",
+      "already": "Anda sudah memiliki riwayat referral."
+    },
+    "button": {
+      "logout": "Apakah Anda yakin ingin keluar?"
+    }
+  },
+
+  "screen_confirm_password": {
+    "title": "Konfirmasi Kata Sandi",
+    "label": "Kata Sandi",
+    "placeholder": "Kata Sandi",
+    "note": {
+      "alt1": "Silakan masukkan kata sandi Anda untuk konfirmasi"
+    },
+    "condition": {
+      "empty": "Silakan isi kata sandi Anda",
+      "wrong": "Kata sandi Anda tidak cocok",
+      "errorServer": "Terjadi kesalahan komunikasi server. Silakan coba lagi..."
+    }
+  },
+
+  "screen_modify_password": {
+    "title": "Ubah Kata Sandi",
+    "label": "Kata Sandi Baru",
+    "placeholder": "Silakan masukkan kata sandi baru Anda",
+    "note": {
+      "alt1": "Silakan masukkan kata sandi Anda untuk informasi pribadi"
+    },
+    "condition": {
+      "empty": "Silakan isi kata sandi Anda",
+      "wrong": "Kata sandi Anda tidak cocok",
+      "errorServer": "Ada kesalahan komunikasi server. Silakan coba lagi..."
+    }
+  },
+
+  "screen_modify_information": {
+    "title": "Ubah Informasi",
+    "lastname": {
+      "label": "Nama Belakang",
+      "placeholder": "Nama belakang Anda"
+    },
+    "name": {
+      "label": "Nama",
+      "placeholder": "Nama Anda"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "xrun@xrun.run"
+    },
+    "phone": {
+      "label": "Nomor Telepon"
+    },
+    "password": {
+      "label": "Kata Sandi",
+      "extstr": "Perubahan terakhir :"
+    },
+    "age": {
+      "label": "Usia"
+    },
+    "gender": {
+      "label": "Jenis Kelamin",
+      "opt1": "Laki-laki",
+      "opt2": "Perempuan"
+    },
+    "area": {
+      "label": "Wilayah",
+      "placeholder": "Wilayah Anda",
+      "empty": "Silakan pilih wilayah",
+      "label_country": "Kebangsaan / Negara",
+      "label_area": "Wilayah"
+    },
+    "modal": {
+      "empty": "Data kosong"
+    },
+    "close": "Tutup",
+    "modify": "Ubah"
+  },
+
+  "screen_clause": {
+    "title": "Ketentuan",
+    "category": {
+      "service": "Ketentuan Layanan",
+      "location": "Ketentuan Informasi Lokasi Pribadi",
+      "usage": "Ketentuan Penggunaan/Pengumpulan Informasi Pribadi"
+    }
+  },
+
+  "screen_appInfo": {
+    "title": "Informasi Aplikasi",
+    "version": "Versi terakhir"
+  },
+
+  "screen_recommend": {
+    "title": "Daftar Rekomendasi",
+    "category": {
+      "regist": "Daftarkan rekomendasi",
+      "random": "Rekomendasi acak"
+    },
+    "add_recommend": {
+      "label": "ID Rekomendasi",
+      "placeholder": "Silakan masukkan ID rekomendasi Anda.",
+      "not_found": "ID tidak ditemukan, Silakan masukkan ID rekomendasi Anda lagi.",
+      "recommended": "Rekomendasi didaftarkan",
+      "already": "Anda sudah memiliki referral ID."
+    },
+    "random_recommend": {
+      "empty": "Silakan pilih sebuah ID."
+    }
+  },
+
+  "screen_cs": {
+    "title": "Layanan Pelanggan",
+    "common": {
+      "title": "Masalah Umum"
+    },
+    "one": {
+      "title": "Pertanyaan 1:1"
+    }
+  },
+
+  "screen_setting": {
+    "title": "Pengaturan",
+    "category": {
+      "basic": {
+        "cat": "Pengaturan Dasar",
+        "device": "Pengaturan Perangkat"
+      },
+      "account": {
+        "cat": "Pengaturan Akun",
+        "logout": "Keluar",
+        "close": "Hapus Akun"
+      }
+    },
+    "close": {
+      "title": "Hapus Akun",
+      "desc": {
+        "clo1": "Seluruh",
+        "clo2": "XRUN ",
+        "clo3": "Anda akan menghilang secara keseluruhan.",
+        "clo4": "Bila hapus akun, semua akun yang terhubung ",
+        "clo5": "akan Terhapus semua.",
+        "fail": "Gagal menghapus akun"
+      },
+      "select": {
+        "sel1": "Layanan sulit digunakan",
+        "sel2": "Fitur sulit digunakan",
+        "sel3": "Dan lain-lain"
+      },
+      "reason": "Alasan hapus akun",
+      "del_title": "Hapus Akun",
+      "del_d1": "Untuk mengamankan peraturan akun,",
+      "del_d2": "Masukan kata sandi untuk hapus akun.",
+      "del_placeholder": "Masukan kata sandi.",
+      "del_empty": "Silahkan masukan kata sandi anda",
+      "del_fail": "Gagal menghapus akun"
+    },
+    "alert": {
+      "title": {
+        "error": "Error",
+        "fail": "Gagal",
+        "warning": "Peringatan",
+        "info": "Info",
+        "success": "Berhasil"
+      }
+    },
+    "button": {
+      "logout": "Apakah Anda yakin ingin keluar?"
+    },
+    "other_chain": {
+      "info": "Tampilkan Rantai Lainnya",
+      "alert_press": "Hanya admin yang bisa mengubah"
+    }
+  },
+  "screen_wallet": {
+    "title": "Dompet",
+    "possess": "Milik",
+    "catch": "Catch",
+    "qrcode_show": "Melihat QR Code",
+    "copy_qrcode_show": "Berhasil menyalinkan alamat dompet.",
+    "download_qrcode_show": "Gambar telah berhasil disimpan. Lihat galeri.\n\nSilakan periksa folder unduhan untuk file kunci. \n\nJika file kunci diminta lebih dari satu kali, file tersebut akan rusak (tidak dapat dipulihkan).",
+    "copy_qrcode": "Alamat dompet berhasil di salin.Silakan tempel untuk menggunakan.",
+    "table_head_transaction": "Mutasi",
+    "table_head_send": "Kirim",
+    "table_head_change": "Mengubah",
+    "table_head_exchange": "Penukaran",
+    "table_days": "HARI",
+    "total_history": "Semua",
+    "transfer_history": "Penarikan",
+    "received_details": "Setoran",
+    "transition_history": "Mutasi Penukaran",
+    "history_action3304": "Berhasil mendapatkan XRUN",
+    "history_action3651": "Riwayat Penarikan",
+    "history_action3305": "Mengirimkan XRUN",
+    "history_action3306": "Penukaran XRUN",
+    "history_action3307": "Pencairan XRUN",
+    "history_action3308": "Pencairan Berhasil",
+    "history_extracode9453": "Gagal mengirimkan",
+    "history_extracode9001": "Penarikan Berhasil",
+    "history_extracode9002": "Penarikan Gagal",
+    "history_extracodesuccess": "Penyelesaian",
+    "history_not_found": "Histori tidak ditemukan",
+    "confirm_alert": "MENGONFIRMASI",
+    "failed_getwallet_alert": "Gagal untuk dapatkan dompet Anda, silakan coba lagi nanti",
+    "failed_alert": "Gagal",
+    "failed_download_qrcode_alert": "Gagal untuk mengunduh qr code",
+    "see_more": "Lihat Lainnya",
+    "able_transfer": "Able Tran."
+  },
+  "screen_send": {
+    "send_amount_label": "Amount",
+    "send_amount_placeholder": "Masukan jumlah yang ingin di kirimkan.",
+    "send_address_label": "To",
+    "send_availables_label": "Avaliables",
+    "send_address_placeholder": "Masukan Alamat Pengiriman.",
+    "send_balance": "Saldo :",
+    "send_stock_exchange_label": "Stock exchange",
+    "send_amount_greater_zero": "Harap masukkan jumlah yang lebih besar dari 0.",
+    "send_balance_not_enough": "Saldo tidak mencukupi.",
+    "send_address_less": "Alamat kurang dari 40 huruf.",
+    "send_empty_limit": "Batas transfer yang tersedia harus lebih dari 0",
+    "send_verification_code": "Mengirim kode verifikasi",
+    "estimated_gas_fee": "Gas fee",
+    "notes": {
+      "note1": "Perhatikan bahwa Anda harus memiliki",
+      "note2": "untuk mentransfer, Jika tidak, Anda mungkin kehilangan nilai Anda."
+    },
+    "note_insufficient_balance": {
+      "note1": "Anda tidak memiliki saldo yang cukup di akun Anda untuk membayar biaya",
+      "note2": "di jaringan mainnet"
+    },
+    "note_insufficient_balance_total": "Dana tidak mencukupi dengan biaya gas + jumlah",
+    "next": "Berikutnya",
+    "confirm": "Konfirmasi"
+  },
+  "screen_complete_send": {
+    "title": "Berhasil mengirimkan XRUN .",
+    "copy_txid": "TXID berhasil di salin.Silakan tempel untuk menggunakan.",
+    "complete_send": "Telah sukses",
+    "wallet_address": "Alamat Dompet",
+    "amount_send": "Jumlah Terkirim"
+  },
+  "popup": {
+    "notice": "Mohon maaf kepada user XRUN.\n\nKami akan melakukan testing periode\nDan sekaligus maintenance.\n\nMaintenance kurang lebih :\n\n1. Meluaskan coin di seluruh Indonesia.\n\n2. Untuk mengurangi error pada saat tangkap coin dan nonton iklan.\n\n3. Free Coin untuk User yang mengisi Referral.\n\n*Test Periode kami akan berjalan sampai Akhir bulan Aug tanggal 31 2022"
+  },
+  "screen_conversion": {
+    "title": "Permintaan Konversi",
+    "invalid_input": "Input tidak valid.",
+    "invalid_input_amount": "Jumlah input tidak valid.",
+    "insufficient_coin": "Kekurangan koin yang diperoleh.",
+    "coin_above_0": "Silakan masukkan koin di atas 0.",
+    "acquired_coin": "mendapatkan koin",
+    "select_network": "Pilih Jaringan",
+    "desc": "Ketika beralih, biaya gas sekitar 0.124% dikurangkan sebelum beralih.",
+    "exchanged": "XRUN yang akan di tukar ",
+    "exchanged_xrun_desc": "Akan tertukar dengan XRUN  XRUN anda.",
+    "input_exchanged": "Masukan jumlah XRUN  yang ingin di tukar.",
+    "check_conversion_desc": "Silakan mengecek informasi anda sekali lagi.",
+    "minimum_exchange": "Jumlah penukaran minimum",
+    "input_convert": " Masukan jumlah XRUN  yang ingin di ubah."
+  },
+  "complete_conversion": {
+    "title": "Permintaan Konversi Selesai",
+    "target_converted": "Tujuan yang akan dikonversi",
+    "current_balance": "Saldo Saat Ini",
+    "conversion_request": "Permintaan Konversi dari",
+    "desc": "Pertukaran mungkin ditolak jika biaya jaringan lebih tinggi daripada sisa XRUN Anda"
+  },
+  "complete_exchange": {
+    "exchange_target": "XRUN  yang ingin di tukar",
+    "exchange_request": "Permintaan penukaran XRUN",
+    "post_exchange_balance": "Saldo setelah penukaran",
+    "previous_balance": "Saldo Sebelum",
+    "title": "Berhasil menukarkan XRUN",
+    "cancel_exchange": "Batal"
+  },
+  "global_error": {
+    "error": "Server telah masalah. Silakan mencoba lagi nanti.",
+    "network_busy": "Jaringan sedang sibuk sekarang"
+  },
+
+  "screen_advertise": {
+    "title": "Penyimpanan Iklan",
+    "delete": "HAPUS",
+    "all": " SEMUA",
+    "deleteAll": "HAPUS SEMUA",
+    "surely": "Apakah Anda yakin ingin menghapus semua?",
+    "deleted": "Iklan telah dihapus",
+    "failedDelete": "Gagal menghapus iklan",
+    "until": "sampai",
+    "loading": "Memuat data, harap tunggu...",
+    "nodata": "Tidak ada data yang tersedia",
+    "newest": "Terbaru",
+    "deadline": "Batas Waktu",
+    "order": "Pemesanan Koin",
+    "completed": "Pengambilan koin selesai",
+    "pending": "Menunggu pengambilan koin",
+    "tab1": "Penyimpanan Iklan",
+    "tab2": "Misi Iklan Selesai",
+    "total": "Total"
+  },
+
+  "permissions_alert": {
+    "title_camera_permission": "Izin Kamera",
+    "desc_camera_permission": "Perlu akses kamera untuk memindai Gambar Kode QR"
+  }
+}
